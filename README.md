@@ -1,29 +1,65 @@
 # ReactIII-2
-Atividade Meu Portfólio da Reprograma - Semana 16 React III
+Atividade feita no curso da Reprograma para exercitar React JS Logo-React
 
 Tecnologias Utilizadas:
-React  Git JavaScript NPM  Vite
 
+React Git  JavaScript  NPM  Vite
 
+Ferramenta	Descrição
+vite	Gerador de projeto front-end
+ReactJS	Biblioteca javascript
+npm	Gerenciador de pacotes
+axios	Para consumo de API
+react-router-dom	Criador de rotas
+netlify	Hospedagem
+react-icons	Icones grátis
+css	Folhas de estilos
+Google fonts	Fonte
+undraw	Banco de ilustrações grátis
 Revisão:
 Como preparar o ambiente e criar o projeto React com vite
 Componentes: O que são
 Props
-Conceitos aprendidos:
 Eventos
 Estados
 Listas e Chaves (key-id)
 React Hooks (useState e useEffect)
 Consumir API em React
 Prática usando todos os conceitos aprendidos na aula
+Conceitos aprendidos:
+Introdução ao Roadmap React + Próximos passos
+Rotas - React Router
+Projeto guiado do zero ao deploy
 Desafio da semana:
-O Projetinho será: Meu Portifólio da Reprograma 👈 ✍️ 👩‍💻 📖
+Projeto final React 👈 ✍️ 👩‍💻 📖
 
-Crie um projeto react com vite
-Apagar as informações default
-Uma seção se apresentando
-Importar no App.jsx os componentes criados para montar o seu diário, perceber os erros/warnings que o terminal/console mostrar, resolva e fazer todos os componentes renderizar na tela
-Faça uma primeira seção mostrando seus projetos 4 projetos que fez na reprograma crie uma lista de objetos com as informações de id, nome, descrição, conteúdo aprendido com aquele projeto, imagem com print ou gif do projeto, link do github ou link do netlify
-Faça uma seção ver todos os repositórios - Consuma a API do github e traga todos os seus projetos mapeando na tela em cards com nome, descrição e link
-Faça o footer - com o crédito de autora do projeto
-Subir esse projeto no github, atualizar o read me contando tudo o que aprendeu e usou nesta primeira aula.
+Criar organização das pastas
+Criar rotas
+Criar Menu
+Criar Header
+Criar páginas
+Comentários usando localStorage
+Subir no netlify e incluir a configuração de redirects
+Criar e incluir footer
+Criar e inclir páginas: Sobre, Diário da reprograma e Contato
+Arquitetura:
+ 📁 projeto-guiado
+   |- 📁 src
+   |     |- 📁 assets
+   |     |- 📁 components
+   |       |- 📁 Footer
+   |       |- 📁 Header
+   |       |- 📁 Menu
+   |     |- 📁 pages
+   |       |- 📁 Sobre
+   |       |- 📁 Comentarios
+   |       |- 📁 Projetos
+   |       |- 📁 Diario
+   |       |- 📁 Contato
+   |     |- 📁 routes
+   |- 📁 node_modules
+   |- 📄 app.jsx
+   |- 📄 main.jsx
+   |- 📄 .gitignore
+   |- 📄 package.json  
+   |- 📄 package-lock.json
