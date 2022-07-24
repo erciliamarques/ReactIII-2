@@ -1,0 +1,39 @@
+img{
+  border-radius: 10px;
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.container-cards{
+  background-color: #686AAC;
+  border-radius: 10px;
+  max-width: 1200px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card{
+  background-color: #ffffff;
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 15px;
+}
+
+.card h2, .card p{
+  color: #686AAC;
+}
+
+.main h2{
+  margin: 10px;
+}
+
+.main p{
+  max-width: 1000px;
+  padding: 20px;
+  margin: auto;
+}
